@@ -1,0 +1,17 @@
+{
+    "name": "repro_extend_tsconfig",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@bazel/bazel": "latest",
+        "@bazel/ibazel": "latest",
+        "@bazel/buildifier": "latest",
+        "@bazel/typescript": "latest",
+        "@amaurymartiny/tsconfig": "1.0.11",
+        "typescript": "~3.4.0"
+    },
+    "scripts": {
+        "build": "bazel build //...",
+        "test": "bazel test //..."
+    }
+}
